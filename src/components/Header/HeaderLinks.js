@@ -36,18 +36,10 @@ export default function HeaderLinks(props) {
           }}
           buttonIcon={Apps}
           dropdownList={[
-            <Link to="/" className={classes.dropdownLink}>
-              GeoSwapper
-            </Link>,
-              <Link to="/" className={classes.dropdownLink}>
-                  iFavs
-              </Link>,
-              <Link to="/" className={classes.dropdownLink}>
-                  WorkIt
-              </Link>,
-              <Link to="/" className={classes.dropdownLink}>
-                  Pedalboard
-              </Link>,
+              <a href="/#geoswapper" className={classes.dropdownLink}>GeoSwapper</a>,
+              <a href="/#iFavs" className={classes.dropdownLink}>iFavs</a>,
+              <a href="/#fivexfive" className={classes.dropdownLink}>WorkIt</a>,
+              <a href="/#pedalboard" className={classes.dropdownLink}>Pedalboard</a>,
               /*
             <a
               href="https://creativetimofficial.github.io/material-kit-react/#/documentation?ref=mkr-navbar"

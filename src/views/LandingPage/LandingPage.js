@@ -16,8 +16,6 @@ import Parallax from "components/Parallax/Parallax.js";
 
 
 import styles from "assets/jss/material-kit-react/views/landingPage.js";
-import ProductSection from "../TemplateLandingPage/Sections/ProductSection";
-import WorkSection from "../TemplateLandingPage/Sections/WorkSection";
 import ProjectsOverviewSection from "./Sections/ProjectsOverview";
 
 const dashboardRoutes = [];
@@ -55,8 +53,8 @@ export default function LandingPage(props) {
                           <Button
                               color="danger"
                               size="lg"
-                              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
-                              target="_blank"
+                              href="#projects"
+                              //target="_blank" Makes it open in a new page
                               rel="noopener noreferrer"
                           >
                               <i className="fas fa-play" />
@@ -68,7 +66,8 @@ export default function LandingPage(props) {
           </Parallax>
           <div className={classNames(classes.main, classes.mainRaised)}>
               <div className={classes.container}>
-                  <ProjectsOverviewSection />
+                  <a name="projects"/>
+                  <ProjectsOverviewSection/>
               </div>
           </div>
           <Footer />
