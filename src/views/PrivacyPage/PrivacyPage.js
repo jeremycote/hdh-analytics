@@ -24,6 +24,7 @@ import fivexfive from "assets/img/projects/5x5Icon.png";
 import geoswapper from "assets/img/projects/GeoSwapperIcon.png";
 import ifavs from "assets/img/projects/iFavsIcon.png";
 import pedalboard from "assets/img/projects/PedalboardIcon.png";
+import ttol from "assets/img/projects/TTOLIcon.png";
 
 const dashboardRoutes = [];
 
@@ -195,6 +196,32 @@ export default function PrivacyPage(props) {
                                             </p>
                                         </CardBody>
 
+                                    </Card>
+                                </GridItem>
+                            </GridContainer>
+                            <hr/>
+                            <GridContainer>
+
+                                <GridItem xs={8} sm={8} md={4}>
+                                    <Card plain>
+                                        <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                                            <img src={ttol} alt="..." className={imageClasses} />
+                                        </GridItem>
+                                        <h4 className={classes.cardTitle}>
+                                            Two Truths One Lie
+                                            <br />
+                                            <small className={classes.smallTitle}>iMessage Game</small>
+                                        </h4>
+                                    </Card>
+                                </GridItem>
+                                <GridItem xs={16} sm={16} md={8}>
+                                    <Card plain>
+                                        <CardBody>
+                                            <p className={classes.description}>
+                                                We do not collect or make use of any of the information you enter in Two Truths One Lie.
+                                                Your statements, their validaty, and your guesses are stored in iMessage and are available to you and your recepient.
+                                            </p>
+                                        </CardBody>
                                     </Card>
                                 </GridItem>
                             </GridContainer>
