@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9047df8b-11be-4356-9cd5-227083a7e214" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/projects/TTOLIcon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/LandingPage/Sections/ProjectsOverview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/LandingPage/Sections/ProjectsOverview.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/PrivacyPage/PrivacyPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/PrivacyPage/PrivacyPage.js" afterDir="false" />
@@ -65,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1638327362169</updated>
       <workItem from="1638327363242" duration="15620000" />
-      <workItem from="1640299121368" duration="1176000" />
+      <workItem from="1640299121368" duration="1320000" />
     </task>
     <servers />
   </component>
