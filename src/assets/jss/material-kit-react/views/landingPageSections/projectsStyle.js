@@ -30,7 +30,14 @@ const teamStyle = {
     },
     margin5: {
         margin: "5px",
+    },
+    download: {
+        height: "4em",
+    },
+    downloadAndroid: {
+        height: "6em",
     }
+
 };
 
 export default teamStyle;

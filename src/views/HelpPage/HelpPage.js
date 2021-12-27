@@ -24,6 +24,7 @@ import fivexfive from "assets/img/projects/5x5Icon.png";
 import geoswapper from "assets/img/projects/GeoSwapperIcon.png";
 import ifavs from "assets/img/projects/iFavsIcon.png";
 import pedalboard from "assets/img/projects/PedalboardIcon.png";
+import TTOL from "assets/img/projects/TTOLIcon.png";
 
 const dashboardRoutes = [];
 
@@ -229,6 +230,34 @@ export default function HelpPage(props) {
                                         <CardBody>
                                             <p className={classes.description}>
                                                 To replay tutorial, tap the tutorial button at the app&apos;s main menu.
+                                            </p>
+                                        </CardBody>
+                                    </Card>
+                                </GridItem>
+                            </GridContainer>
+                            <hr/>
+                            <GridContainer>
+
+                                <GridItem xs={8} sm={8} md={4}>
+                                    <Card plain>
+                                        <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                                            <img src={TTOL} alt="..." className={imageClasses} />
+                                        </GridItem>
+                                        <h4 className={classes.cardTitle}>
+                                            Two Truths One Lie
+                                            <br />
+                                            <small className={classes.smallTitle}>iMessage Game</small>
+                                        </h4>
+                                    </Card>
+                                </GridItem>
+                                <GridItem xs={16} sm={16} md={8}>
+                                    <Card plain>
+                                        <CardBody>
+                                            <p className={classes.description}>
+                                                Start a game using the iMessage App. Enter your three statements into the textfield.
+                                                Use the segmented picker to chose which statement is a lie. To send, tap the blue send button.
+                                                <br />
+                                                To answer, tap on the received iMessage. Then tap on the false statement and click send.
                                             </p>
                                         </CardBody>
                                     </Card>

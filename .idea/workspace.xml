@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9047df8b-11be-4356-9cd5-227083a7e214" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/projects/TTOLIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/download-buttons/DownloadGoogle.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/landingPageSections/projectsStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/landingPageSections/projectsStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderLinks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderLinks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/HelpPage/HelpPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/HelpPage/HelpPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/LandingPage/Sections/ProjectsOverview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/LandingPage/Sections/ProjectsOverview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/PrivacyPage/PrivacyPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/PrivacyPage/PrivacyPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/build" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\jerem\WebstormProjects\hdh-analytics\node_modules\prettier" />
     <property name="ts.external.directory.path" value="C:\Users\jerem\WebstormProjects\hdh-analytics\node_modules\typescript\lib" />
@@ -54,6 +54,7 @@
       <recent name="C:\Users\jerem\WebstormProjects\hdh-analytics\src\assets\img\download-buttons" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/img/download-buttons" />
       <recent name="C:\Users\jerem\WebstormProjects\hdh-analytics\public" />
       <recent name="C:\Users\jerem\WebstormProjects\hdh-analytics\src\assets\img" />
       <recent name="C:\Users\jerem\WebstormProjects\hdh-analytics\src\assets\img\projects" />
@@ -69,10 +70,22 @@
       <updated>1638327362169</updated>
       <workItem from="1638327363242" duration="15620000" />
       <workItem from="1640299121368" duration="1320000" />
+      <workItem from="1640642414256" duration="2447000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

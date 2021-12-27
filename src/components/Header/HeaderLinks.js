@@ -40,6 +40,7 @@ export default function HeaderLinks(props) {
               <a href="/#iFavs" className={classes.dropdownLink}>iFavs</a>,
               <a href="/#fivexfive" className={classes.dropdownLink}>WorkIt</a>,
               <a href="/#pedalboard" className={classes.dropdownLink}>Pedalboard</a>,
+              <a href="/#ttol" className={classes.dropdownLink}>Two Truths One Lie</a>,
               /*
             <a
               href="https://creativetimofficial.github.io/material-kit-react/#/documentation?ref=mkr-navbar"
@@ -54,7 +55,7 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://apps.apple.com/us/developer/hdh-analytics-inc/id1523364815"
+          href="https://play.google.com/store/apps/developer?id=HDH+Analytics+Inc"
           color="transparent"
           target="_blank"
           className={classes.navLink}

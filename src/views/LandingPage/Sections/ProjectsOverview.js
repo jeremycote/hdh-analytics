@@ -24,12 +24,14 @@ import ttol from "assets/img/projects/TTOLIcon.png";
 
 import downloadiOS from "assets/img/download-buttons/DownloadAppStore.svg";
 import downloadmacOS from "assets/img/download-buttons/DownloadMacAppStore.svg";
-
+import downloadGoogle from "assets/img/download-buttons/DownloadGoogle.png";
 
 const pedalboardLink = "https://apps.apple.com/app/apple-store/id1584890462?pt=121840887&ct=HDHAnalyticsWebsite&mt=8";
 const iFavsLink = "https://apps.apple.com/app/apple-store/id1523364813?pt=121840887&ct=iFavsHDHAnalyticsWebsite&mt=8";
 const fxfLinkApple = "https://apps.apple.com/app/apple-store/id1551729886?pt=121840887&ct=WorkItHDHAnalyticsWebsite&mt=8";
+const fxfLinkGoogle = "https://play.google.com/store/apps/details?id=com.HDHAnalytics.Puzzles5x5";
 const geoswapperLinkApple = "https://apps.apple.com/us/developer/hdh-analytics-inc/id1523364815";
+const geoswapperLinkGoogle = "https://play.google.com/store/apps/details?id=com.HDHAnalytics.GeoSwapper";
 
 const useStyles = makeStyles(styles);
 
@@ -63,8 +65,11 @@ export default function ProjectsOverviewSection() {
                                 </p>
                             </CardBody>
                             <CardFooter className={classes.justifyCenter}>
+                                <a href={geoswapperLinkGoogle} target="_blank" rel="noopener noreferrer">
+                                    <img style={styles.downloadAndroid} src={downloadGoogle} />
+                                </a>
                                 <a href={geoswapperLinkApple} target="_blank" rel="noopener noreferrer">
-                                    <img src={downloadiOS} />
+                                    <img style={styles.download} src={downloadiOS} />
                                 </a>
                             </CardFooter>
                         </Card>
@@ -88,7 +93,7 @@ export default function ProjectsOverviewSection() {
                             </CardBody>
                             <CardFooter className={classes.justifyCenter}>
                                 <a href={iFavsLink} target="_blank" rel="noopener noreferrer">
-                                    <img src={downloadmacOS} />
+                                    <img style={styles.download} src={downloadmacOS} />
                                 </a>
                             </CardFooter>
                         </Card>
@@ -114,8 +119,11 @@ export default function ProjectsOverviewSection() {
                                 </p>
                             </CardBody>
                             <CardFooter className={classes.justifyCenter}>
+                                <a href={fxfLinkGoogle} target="_blank" rel="noopener noreferrer">
+                                    <img style={styles.downloadAndroid} src={downloadGoogle} />
+                                </a>
                                 <a href={fxfLinkApple} target="_blank" rel="noopener noreferrer">
-                                    <img src={downloadiOS} />
+                                    <img style={styles.download} src={downloadiOS} />
                                 </a>
                             </CardFooter>
                         </Card>
@@ -140,7 +148,7 @@ export default function ProjectsOverviewSection() {
                             </CardBody>
                             <CardFooter className={classes.justifyCenter}>
                                 <a href={pedalboardLink} target="_blank" rel="noopener noreferrer">
-                                    <img src={downloadiOS} />
+                                    <img style={styles.download} src={downloadiOS} />
                                 </a>
                             </CardFooter>
                         </Card>
@@ -149,7 +157,7 @@ export default function ProjectsOverviewSection() {
                 <GridContainer>
 
                     <GridItem xs={12} sm={12} md={6}>
-                        <a name="fivexfive"/>
+                        <a name="ttol"/>
                         <Card plain>
                             <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                                 <img src={ttol} alt="..." className={imageClasses} />
@@ -166,7 +174,7 @@ export default function ProjectsOverviewSection() {
                             </CardBody>
                             <CardFooter className={classes.justifyCenter}>
                                 <a href={fxfLinkApple} target="_blank" rel="noopener noreferrer">
-                                    <img src={downloadiOS} />
+                                    <img style={styles.download} src={downloadiOS} />
                                 </a>
                             </CardFooter>
                         </Card>
