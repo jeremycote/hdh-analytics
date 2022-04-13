@@ -8,6 +8,8 @@ gulp.task("licenses", async function () {
     .pipe(
       gap.prependText(`/*!
 
+The HDH Analytics Inc. website is based off of:
+
 =========================================================
 * Material Kit React - v1.10.0
 =========================================================
@@ -31,6 +33,8 @@ gulp.task("licenses", async function () {
     .pipe(
       gap.prependText(`<!--
 
+The HDH Analytics Inc. website is based off of:
+      
 =========================================================
 * Material Kit React - v1.10.0
 =========================================================
@@ -53,6 +57,8 @@ gulp.task("licenses", async function () {
     .src("build/static/css/*chunk.css", { base: "./" })
     .pipe(
       gap.prependText(`/*!
+
+The HDH Analytics Inc. website is based off of:
 
 =========================================================
 * Material Kit React - v1.10.0

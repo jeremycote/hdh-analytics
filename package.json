@@ -1,7 +1,8 @@
 {
-  "name": "material-kit-react",
-  "version": "1.10.0",
-  "description": "Material Kit React. Coded by Creative Tim",
+  "name": "hdh-analytics",
+  "version": "1.2.0",
+  "homepage": "https://hdh-analytics.com",
+  "description": "Website for HDH Analytics Inc.",
   "private": true,
   "main": "src/index.js",
   "dependencies": {
@@ -28,6 +29,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.23.2",
+    "gh-pages": "^3.2.3",
     "gulp": "^4.0.2",
     "gulp-append-prepend": "^1.0.9",
     "prettier": "^2.3.0"
@@ -47,7 +49,9 @@
     "build-package": "npm run build-package-css && babel src --out-dir dist",
     "compile-sass": "node-sass src/assets/scss/material-kit-react.scss src/assets/css/material-kit-react.css",
     "minify-sass": "node-sass src/assets/scss/material-kit-react.scss src/assets/css/material-kit-react.min.css --output-style compressed",
-    "map-sass": "node-sass src/assets/scss/material-kit-react.scss src/assets/css/material-kit-react.css --source-map true"
+    "map-sass": "node-sass src/assets/scss/material-kit-react.scss src/assets/css/material-kit-react.css --source-map true",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
