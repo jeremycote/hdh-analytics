@@ -218,8 +218,8 @@ export default function PrivacyPage(props) {
                                     <Card plain>
                                         <CardBody>
                                             <p className={classes.description}>
-                                                We do not collect or make use of any of the information you enter in Two Truths One Lie.
-                                                Your statements, their validaty, and your guesses are stored in iMessage and are available to you and your recepient.
+                                                We do not record the truths and lies entered in Two Truths One Lie.
+                                                Images are stored in the cloud for 7 days before being deleted.
                                             </p>
                                         </CardBody>
                                     </Card>
