@@ -221,6 +221,9 @@ export default function PrivacyPage(props) {
                                                 We do not record the truths and lies entered in Two Truths One Lie.
                                                 Images are stored in the cloud for 7 days before being deleted.
                                             </p>
+                                            <p className={classes.description}>
+                                                We use Firebase Analytics to collect analytics on user behaviour and events.
+                                            </p>
                                         </CardBody>
                                     </Card>
                                 </GridItem>
