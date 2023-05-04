@@ -222,8 +222,8 @@ export default function PrivacyPage(props) {
                                                 Images are stored in the cloud for 7 days before being deleted.
                                             </p>
                                             <p className={classes.description}>
-                                                We use Firebase Analytics to collect analytics on user behaviour and events.
-                                            </p>
+                                                 We use Firebase Analytics to collect analytics on user behaviour and events.
+                                             </p>
                                         </CardBody>
                                     </Card>
                                 </GridItem>
