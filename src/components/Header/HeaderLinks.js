@@ -36,44 +36,38 @@ export default function HeaderLinks(props) {
           }}
           buttonIcon={Apps}
           dropdownList={[
-              <a href="/#geoswapper" className={classes.dropdownLink}>GeoSwapper</a>,
-              <a href="/#iFavs" className={classes.dropdownLink}>iFavs</a>,
-              <a href="/#fivexfive" className={classes.dropdownLink}>WorkIt</a>,
-              <a href="/#pedalboard" className={classes.dropdownLink}>Pedalboard</a>,
-              <a href="/#ttol" className={classes.dropdownLink}>Two Truths One Lie</a>,
-              /*
-            <a
-              href="https://creativetimofficial.github.io/material-kit-react/#/documentation?ref=mkr-navbar"
-              target="_blank"
-              className={classes.dropdownLink}
-            >
-              Documentation
+            <a href="/#DisplayArranger" className={classes.dropdownLink}>
+              Display Arranger
             </a>,
-            */
+
+            <a href="/#iFavs" className={classes.dropdownLink}>
+              iFavs
+            </a>,
+            <a href="/#fivexfive" className={classes.dropdownLink}>
+              WorkIt
+            </a>,
+            <a href="/#pedalboard" className={classes.dropdownLink}>
+              Pedalboard
+            </a>,
+            <a href="/#ttol" className={classes.dropdownLink}>
+              Two Truths One Lie
+            </a>,
+            <a href="/#geoswapper" className={classes.dropdownLink}>
+              GeoSwapper
+            </a>,
           ]}
         />
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://play.google.com/store/apps/developer?id=HDH+Analytics+Inc"
+          href="https://apps.apple.com/us/developer/hdh-analytics-inc/id1523364815"
           color="transparent"
           target="_blank"
           className={classes.navLink}
         >
-          <CloudDownload className={classes.icons} /> PlayStore
+          <CloudDownload className={classes.icons} /> Appstore
         </Button>
       </ListItem>
-        <ListItem className={classes.listItem}>
-            <Button
-                href="https://apps.apple.com/us/developer/hdh-analytics-inc/id1523364815"
-                color="transparent"
-                target="_blank"
-                className={classes.navLink}
-            >
-                <CloudDownload className={classes.icons} /> Appstore
-            </Button>
-        </ListItem>
-
 
       <ListItem className={classes.listItem}>
         <Tooltip
@@ -89,7 +83,7 @@ export default function HeaderLinks(props) {
             className={classes.navLink}
           >
             <i className={classes.socialIcons + " fab fa-instagram"} />
-              Instagram
+            Instagram
           </Button>
         </Tooltip>
       </ListItem>
