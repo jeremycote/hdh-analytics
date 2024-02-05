@@ -25,6 +25,7 @@ import ifavs from "assets/img/projects/iFavsIcon.png";
 import pedalboard from "assets/img/projects/PedalboardIcon.png";
 import ttol from "assets/img/projects/TTOLIcon.png";
 import displayArranger from "assets/img/projects/DisplayArranger.png";
+import musicStreamer from "assets/img/projects/MusicStreamerIcon.png";
 
 const dashboardRoutes = [];
 
@@ -71,6 +72,45 @@ export default function PrivacyPage(props) {
           <div className={classes.section}>
             <h2 className={classes.projectTitle}>Our Policies</h2>
             <div>
+              <GridContainer>
+                <GridItem xs={8} sm={8} md={4}>
+                  <Card plain>
+                    <GridItem
+                      xs={12}
+                      sm={12}
+                      md={6}
+                      className={classes.itemGrid}
+                    >
+                      <img
+                        src={musicStreamer}
+                        alt="Grammy for Youtube Music App Icon"
+                        className={imageClasses}
+                      />
+                    </GridItem>
+                    <h4 className={classes.cardTitle}>
+                      Grammy for Youtube Music
+                      <br />
+                      <small className={classes.smallTitle}>
+                        The best way to listen on Vision Pro
+                      </small>
+                    </h4>
+                  </Card>
+                </GridItem>
+                <GridItem xs={16} sm={16} md={8}>
+                  <Card plain>
+                    <CardBody>
+                      <p className={classes.description}>
+                        HDH Analytics does not collect any data about your usage
+                        of this app. However, this app is a viewer to access
+                        Google Music. As such, all of Google&apos;s policies
+                        apply. Please see Google Music&apos;s privacy policy for
+                        more details.
+                      </p>
+                    </CardBody>
+                  </Card>
+                </GridItem>
+              </GridContainer>
+              <hr />
               <GridContainer>
                 <GridItem xs={8} sm={8} md={4}>
                   <Card plain>

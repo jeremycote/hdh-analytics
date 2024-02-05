@@ -25,6 +25,7 @@ import ifavs from "assets/img/projects/iFavsIcon.png";
 import displayArranger from "assets/img/projects/DisplayArranger.png";
 import pedalboard from "assets/img/projects/PedalboardIcon.png";
 import TTOL from "assets/img/projects/TTOLIcon.png";
+import musicStreamer from "assets/img/projects/MusicStreamerIcon.png";
 
 const dashboardRoutes = [];
 
@@ -71,6 +72,44 @@ export default function HelpPage(props) {
           <div className={classes.section}>
             <h2 className={classes.projectTitle}>Our Products</h2>
             <div>
+              <hr />
+              <GridContainer>
+                <GridItem xs={8} sm={8} md={4}>
+                  <Card plain>
+                    <GridItem
+                      xs={12}
+                      sm={12}
+                      md={6}
+                      className={classes.itemGrid}
+                    >
+                      <img
+                        src={musicStreamer}
+                        alt="Grammy for Youtube Music App Icon"
+                        className={imageClasses}
+                      />
+                    </GridItem>
+                    <h4 className={classes.cardTitle}>
+                      Grammy for Youtube Music
+                      <br />
+                      <small className={classes.smallTitle}>
+                        The best way to listen on Vision Pro
+                      </small>
+                    </h4>
+                  </Card>
+                </GridItem>
+                <GridItem xs={16} sm={16} md={8}>
+                  <Card plain>
+                    <CardBody>
+                      <p className={classes.description}>
+                        Please see Youtube Music&apos;s help pages for
+                        instructions on how to use the app. This is a client to
+                        help you better access the app on Vision Pro. The
+                        functionnality remains the same.
+                      </p>
+                    </CardBody>
+                  </Card>
+                </GridItem>
+              </GridContainer>
               <hr />
               <GridContainer>
                 <GridItem xs={8} sm={8} md={4}>
