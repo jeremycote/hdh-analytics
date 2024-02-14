@@ -160,9 +160,59 @@ body {
 	color: #999;
 }
 
-.product-grid > .product > .img-rounded {
+.img-rounded {
 	border-radius: 20%;
 	width: 90%;
+}
+
+.product-privacy-policies {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 2em;
+}
+
+.product-privacy-policies > .product {
+	display: flex;
+	flex-direction: row;
+	max-width: 100%;
+	border-bottom: solid 4px #3c4858;
+	margin-bottom: 4em;
+}
+
+.product-privacy-policies > .product:last-of-type {
+	display: flex;
+	flex-direction: row;
+	max-width: 100%;
+	border-bottom: none;
+	margin-bottom: 2em;
+}
+
+.product-privacy-policies > .product > :first-child {
+	max-width: 24em;
+	margin-right: 4em;
+}
+
+.product-privacy-policies > .product > :last-child {
+	width: 75%;
+	flex-grow: 1;
+	text-align: left;
+}
+
+.product-privacy-policies > .product > * > img {
+	object-fit: contain;
+	width: 100%;
+	height: auto;
+}
+
+.product-privacy-policies > .product > * > h2 {
+	margin: 0;
+	padding: 0;
+}
+
+.product-privacy-policies > .product > * > h3 {
+	margin-top: 0;
+	padding-top: 0;
 }
 
 .center-horizontal {
