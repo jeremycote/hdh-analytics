@@ -339,16 +339,47 @@ export default function PrivacyPage(props) {
                   <Card plain>
                     <CardBody>
                       <p className={classes.description}>
-                        GeoSwapper is built using Unity. As such, Unity may
-                        collect some of your data. Unity’s privacy policy is
-                        available at https://unity3d.com/legal/privacy-policy.
+                        HDH Analytics may collect data while using GeoSwapper in
+                        collaboration with Unity Analytics.
                         <br />
                         <br />
-                        In addition, GeoSwapper uses Unity’s Analytics feature.
-                        This allows us to understand how users interact with
-                        GeoSwapper and enhance the user experience. Unity’s
-                        Analytics privacy policy is available at
-                        https://unity3d.com/legal/privacy-policy.
+                        GeoSwapper and Unity Analytics may collect some or all
+                        of the following information about your device: unique
+                        device identifiers (e.g., IDFV for iOS devices and
+                        Android ID for Android devices); IP address; country of
+                        install (mapped from IP address); device manufacturer
+                        and model platform type (iOS, Android, Mac, Windows,
+                        etc.) and the operating system and version running on
+                        your system or device; language; CPU information such as
+                        model, the number of CPUs present, frequency, and
+                        instruction set support flags; the graphics card type
+                        and vendor name; graphics card driver name and version
+                        (e.g., “nv4disp.dll 6.10.93.71”); which graphics API is
+                        in use (e.g., “OpenGL 2.1” or “Direct3D 9.0c”); amount
+                        of system and video RAM present; current screen
+                        resolution; version of the Unity Editor used to create
+                        the game; sensor flags (e.g., device support for
+                        gyroscope, touch pressure or accelerometer); application
+                        or bundle identification (“app ID”) of the game
+                        installed; unique advertising identifiers provided for
+                        iOS and Android devices (e.g., IDFA or Android Ad ID);
+                        and a checksum of all the data that gets sent to verify
+                        that it transmitted correctly.
+                        <br />
+                        <br />
+                        Some of your data points will also be rolled up into an
+                        anonymized, aggregated format to help make decisions
+                        about how to support GeoSwapper.
+                        <br />
+                        <br />
+                        GeoSwapper does not collect any data that the GDPR
+                        refers to as “special Categories” such as political,
+                        religious, or sexual orientation. Collected data may be
+                        held indefinetly in Unity&apos;s databases. This
+                        anonymized data will not be deleted.
+                        <br />
+                        <br />
+                        Please contact privacy@hdh-analytics.com for inquiries.
                       </p>
                     </CardBody>
                   </Card>
