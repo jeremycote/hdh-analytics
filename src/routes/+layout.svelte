@@ -2,12 +2,8 @@
 	import { url_appstoreDeveloperAccount, url_instagram } from '$lib/constants';
 	import Fa from 'svelte-fa';
 	import { faCloudArrowDown } from '@fortawesome/free-solid-svg-icons';
-	import { faGithub } from '@fortawesome/free-brands-svg-icons';
+	import { faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 </script>
-
-<svelte:head>
-	<link rel="stylesheet" type="text/css" href="/styles.css" />
-</svelte:head>
 
 <nav>
 	<a href="/">HDH Analytics</a>
@@ -17,7 +13,7 @@
 		Appstore</a
 	>
 	<a href={url_instagram}>
-		<Fa icon={faGithub} />
+		<Fa icon={faInstagram} />
 		Instagram
 	</a>
 </nav>

@@ -14,7 +14,7 @@
 
 <Parallax clazz="center-horizontal">
 	<h1 id="apps">Help</h1>
-	<div class="product-privacy-policies">
+	<div class="product-vertical-list">
 		{#each products as product}
 			<div class="product">
 				<div>
@@ -27,7 +27,7 @@
 					<h3>{product.subtitle}</h3>
 				</div>
 				<div>
-					<p>{product.help}</p>
+					{@html product.help}
 				</div>
 			</div>
 		{/each}

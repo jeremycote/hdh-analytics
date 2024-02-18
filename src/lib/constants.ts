@@ -16,7 +16,25 @@ export const products = [
 		image_style: 'regular',
 		privacy_policy:
 			'We do not collect or make use of any of the information you enter in Display Arranger.',
-		help: "Make sure you have at least two displays connected to use the app.\nArrange your displays by dragging the grey and blue rectangles around. Make them match the physical placement of your displays for the best experience.\nOnce you are satisfied with your arrangement, you can save it by clicking on the tile labeled \"Save\" at the bottom of the window.\nTo use an arrangement you've previously saved, tap on it's tile.\nTo rename or delete an arrangement, right click on it's tile and choose the corresponding option."
+		help: `
+			<p class="alert">Please connect at least one external display to your device or else Display Arranger will not be of any use.</p>
+			<h4>Setting display positions</h4>
+			<ol>
+				<li>Arrange your displays by dragging the grey and blue rectangles around.</li>
+				<li>Make them match the physical placement of your displays for the best experience.</li>
+				<li>Once satisfied, save your setup by clicking on the tile labeled \"Save\" at the bottom of the window.</li>
+			</ol>
+			<h4>Using an existing arrangement</h4>
+			<ol>
+				<li>Once an arrangement is saved, tap on it's tile at the bottom of the window to load it.</li>
+			</ol>
+			<h4>Renaming an arrangement</h4>
+			<ol>
+				<li>Right click on it's tile at the bottom of the window.</li>
+				<li>Click "Edit details"</li>
+				<li>Enter a new name</li>
+				<li>Click "Apply changes"</li>
+			</ol>`
 	},
 	{
 		title: 'iFavs',
@@ -30,43 +48,56 @@ export const products = [
 		image_style: 'regular',
 		privacy_policy:
 			'We do not collect or make use of any of the information you enter in iFavs. Your links, their shorthand names, and your preferences are stored locally on your device. However, your links and their shorthand names are also stored on your iCloud account if iCloud Sync* is enabled. We do not process any of your information and have no access to it. \nIn addition, if you wish to delete your data, you can navigate to Edit Favorites in iFavs and click delete on each of your links in order to remove them permanently from your device. This will also delete them from iCloud if iCloud Sync is enabled.\n*iCloud Sync can be found under Edit Favorites, on the right hand side of the window. iCloud support was introduced in version 2.0. Prior to this release, your information is only stored locally on your device.',
-		help: `Adding a new favorite:
-			Click on the star (Top right corner of your screen)
-			Click Add to Favorites…
-			Enter the name of your link in the Name textbox
-			Enter the URL(Link) of the website you wish to save in the URL textbox
-			Click the Save button to save your favorite
+		help: `<h4>Adding a new favorite:</h4>
+			<ol>
+				<li>Click on the star (Top right corner of your screen)</li>
+				<li>Click Add to Favorites…</li>
+				<li>Enter the name of your link in the Name textbox</li>
+				<li>Enter the URL(Link) of the website you wish to save in the URL textbox</li>
+				<li>Click the Save button to save your favorite</li>
+			</ol>
 			
-			Removing a favorite:
-			Click on the star (Top right corner of your screen)
-			Click Edit Favorites…
-			Find the website you wish to delete in the left hand list
-			Click the x on the desired website’s row
 			
-			Opening a favorite:
-			Click on the star (Top right of your screen)
-			Once a website is added (See Adding a new website), locate it in the list
-			Click on the desired website’s name
+			<h4>Removing a favorite:</h4>
+			<ol>
+				<li>Click on the star (Top right corner of your screen)</li>
+				<li>Click Edit Favorites…</li>
+				<li>Find the website you wish to delete in the left hand list</li>
+				<li>Click the x on the desired website’s row</li>
+			</ol>
+
+			<h4>Opening a favorite:</h4>
+			<ol>
+				<li>Click on the star (Top right of your screen)</li>
+				<li>Once a website is added (See Adding a new website), locate it in the list</li>
+				<li>Click on the desired website’s name</li>
+			</ol>
+
+			<h4>Moving a favorite:</h4>
+			<ol>
+				<li>Click on the star (Top right corner of your screen)</li>
+				<li>Click Edit Favorites…</li>
+				<li>Drag the website’s name to the desired location</li>
+				<li>(Up arrow moves the favorite up one row)</li>
+				<li>(Down arrow moves the favorite down one row)</li>
+			</ol>
+
+			<h4>Reset settings:</h4>
+			<ol>
+				<li>Click on the star. (Top right of your screen)</li>
+				<li>Click on the Recommended Defaults button</li>
+			</ol>
 			
-			Moving a favorite:
-			Click on the star (Top right corner of your screen)
-			Click Edit Favorites…
-			Drag the website’s name to the desired location
-			(Up arrow moves the favorite up one row)
-			(Down arrow moves the favorite down one row)
-			
-			Reset settings:
-			Click on the star. (Top right of your screen)
-			Click on the Recommended Defaults button
-			
-			Settings:
-			Launch application at login: Turn on app with your computer.
-			Automatically add http://: Highly recommended, increases security.
-			iCloud Sync: Synchronize favourites with your other Macs, also serves as backup.
-			Enable startup prompt: Show introduction window next time app starts.
-			Recommended Defaults: resets settings to recommended settings.
-			Sync group: Group where favorites are stored. These are: Favorites, Home, Work, and Other.
-			When changed, your favorites will automatically change to display those of the current group.`
+			<h4>Settings:</h4>
+			<ul>
+				<li>Launch application at login: Turn on app with your computer.</li>
+				<li>Automatically add http://: Highly recommended, increases security.</li>
+				<li>iCloud Sync: Synchronize favourites with your other Macs, also serves as backup.</li>
+				<li>Enable startup prompt: Show introduction window next time app starts.</li>
+				<li>Recommended Defaults: resets settings to recommended settings.</li>
+				<li>Sync group: Group where favorites are stored. These are: Favorites, Home, Work, and Other.</li>
+				<li>When changed, your favorites will automatically change to display those of the current group.</li>
+			</ul>`
 	},
 	{
 		title: 'Pedalboard',
@@ -85,7 +116,7 @@ export const products = [
 			Edit pedal parameters by tapping and holding on the pedal's graphic.`
 	},
 	{
-		title: 'WorkIt - 5x5 Math Puzzles',
+		title: 'WorkIt - 5x5 Puzzles',
 		subtitle: 'Math puzzles',
 		description:
 			'5x5 Math Puzzles puts your arithmetic skills to the test with grid based puzzles. Multiple difficulty levels allows anyone to get started.',

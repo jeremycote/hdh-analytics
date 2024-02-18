@@ -17,16 +17,16 @@
 		}
 	};
 
-	// if (browser) {
-	// 	// Attach and detach scroll event listeners
-	// 	onMount(() => {
-	// 		window.addEventListener('scroll', handleScroll);
-	// 	});
+	if (browser) {
+		// Attach and detach scroll event listeners
+		onMount(() => {
+			window.addEventListener('scroll', handleScroll);
+		});
 
-	// 	onDestroy(() => {
-	// 		window.removeEventListener('scroll', handleScroll);
-	// 	});
-	// }
+		onDestroy(() => {
+			window.removeEventListener('scroll', handleScroll);
+		});
+	}
 </script>
 
 <div class="parallax-content {clazz}" style="transform: translate3D(0, -{scrollY * 0.5}px, 0)">

@@ -19,7 +19,7 @@
 
 <Parallax clazz="center-horizontal">
 	<h1 id="apps">Privacy Policies</h1>
-	<div class="product-privacy-policies">
+	<div class="product-vertical-list">
 		{#each products as product}
 			<div class="product">
 				<div>

@@ -26,7 +26,14 @@
 				<h2>{product.title}</h2>
 				<h3>{product.subtitle}</h3>
 				<p>{product.description}</p>
-				<a href={product.download}>Download for {product.type}</a>
+				<a href={product.download}>
+					<img
+						src={product.type == 'ios'
+							? '/download-buttons/DownloadAppStore.svg'
+							: '/download-buttons/DownloadMacAppStore.svg'}
+						alt="Download Button"
+					/>
+				</a>
 			</div>
 		{/each}
 	</div>
