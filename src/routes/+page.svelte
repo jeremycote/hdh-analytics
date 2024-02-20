@@ -28,9 +28,9 @@
 				<p>{product.description}</p>
 				<a href={product.download}>
 					<img
-						src={product.type == 'ios'
-							? '/download-buttons/DownloadAppStore.svg'
-							: '/download-buttons/DownloadMacAppStore.svg'}
+						src={product.type == 'mac'
+							? '/download-buttons/DownloadMacAppStore.svg'
+							: '/download-buttons/DownloadAppStore.svg'}
 						alt="Download Button"
 					/>
 				</a>

@@ -10,11 +10,6 @@
 <div class="hero">
 	<h1>Privacy Policies</h1>
 	<p>Learn how we handle your information.</p>
-
-	<a href="/#apps">
-		<Fa icon={faPlay} />
-		Apps</a
-	>
 </div>
 
 <Parallax clazz="center-horizontal">

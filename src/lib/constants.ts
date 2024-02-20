@@ -13,7 +13,7 @@ export const products = [
 			'https://apps.apple.com/us/app/display-arranger/id6475056370?pt=121840887&ct=WorkItHDHAnalyticsWebsite&mt=8',
 		type: 'mac',
 		image: 'icons/DisplayArrangerIcon.png',
-		image_style: 'regular',
+		image_style: 'rounded',
 		privacy_policy:
 			'We do not collect or make use of any of the information you enter in Display Arranger.',
 		help: `
@@ -35,6 +35,18 @@ export const products = [
 				<li>Enter a new name</li>
 				<li>Click "Apply changes"</li>
 			</ol>`
+	},
+	{
+		title: 'Grammy for Youtube Music',
+		subtitle: 'The best way to listen on Vision Pro',
+		description:
+			'Listen to Youtube Music on the Apple Vision Pro in the simplest way possible using Grammy. Background music playing and easy access in dedicated app.',
+		download: 'https://apps.apple.com/us/app/grammy-for-youtube-music/id6477367507',
+		type: 'vision',
+		image: 'icons/GrammyIcon.png',
+		image_style: 'rounded',
+		privacy_policy: `HDH Analytics does not collect any data about your usage of this app. However, this app enables access to Youtube Music. As such, all of Google's policies apply. Please see Youtube Music's privacy policy for more details.`,
+		help: `Please see Youtube Music's help pages for instructions on how to use the app. This is a client to help you better access the app on Vision Pro. The functionnality remains the same.`
 	},
 	{
 		title: 'iFavs',
@@ -111,9 +123,11 @@ export const products = [
 		image_style: 'rounded',
 		privacy_policy:
 			'HDH Analytics Inc. does not collect any of your data (presets, usage history, etc). All saved data is stored on your device.',
-		help: `Toggle pedals by tapping on the grey stomp buttons.
-
-			Edit pedal parameters by tapping and holding on the pedal's graphic.`
+		help: `
+			<h4>Turn effects on and off</h4>
+			<p>Toggle pedals by tapping on the grey stomp buttons.</p>
+			<h4>Customizing effects</h4>
+			<p>Edit pedal parameters by tapping and holding on the pedal's graphic. Changes are applied automatically.</p>`
 	},
 	{
 		title: 'WorkIt - 5x5 Puzzles',
@@ -127,7 +141,7 @@ export const products = [
 		image_style: 'rounded',
 		privacy_policy:
 			'5×5 is built using Unity. As such, Unity may collect some of your data. Unity’s privacy policy is available at https://unity3d.com/legal/privacy-policy.\nIn addition, 5×5 uses Unity’s Analytics feature. This allows us to understand how users interact with 5×5 and enhance the user experience. Unity’s Analytics privacy policy is available at https://unity3d.com/legal/privacy-policy.',
-		help: "To replay tutorial, tap the tutorial button at the app's main menu."
+		help: "<h4>Replay tutorial</h4><p>Tap the tutorial button at the app's main menu.</p>"
 	},
 	{
 		title: 'Two Truths One Lie',
@@ -140,8 +154,19 @@ export const products = [
 		image_style: 'rounded',
 		privacy_policy:
 			'We do not record the truths and lies entered in Two Truths One Lie. Images are stored in the cloud for 7 days before being deleted. We use Firebase Analytics to collect analytics on user behaviour and events.',
-		help: `Start a game using the iMessage App. Enter your three statements into the textfield. Use the segmented picker to chose which statement is a lie. To send, tap the blue send button.
-			To answer, tap on the received iMessage. Then tap on the false statement and click send.`
+		help: `<h4>Starting a new game</h4>
+		<ol>
+			<li>Open the iMessage App.</li>
+			<li>Enter your three statements into the textfields.</li>
+			<li>Select which statement is a lie using the segmented picker.</li>
+			<li>To confirm and send, tap the blue button under the prompts.</li>
+		</ol>
+		<h4>Answering someone else</h4>
+		<ol>
+			<li>Tap on the receive message.</li>
+			<li>Tap on the false statement.</li>
+			<li>Tap on the send button.</li>
+		</ol>`
 	},
 	{
 		title: 'GeoSwapper',
@@ -154,8 +179,12 @@ export const products = [
 		image_style: 'rounded',
 		privacy_policy:
 			'GeoSwapper is built using Unity. As such, Unity may collect some of your data. Unity’s privacy policy is available at https://unity3d.com/legal/privacy-policy. \nIn addition, GeoSwapper uses Unity’s Analytics feature. This allows us to understand how users interact with GeoSwapper and enhance the user experience. Unity’s Analytics privacy policy is available at https://unity3d.com/legal/privacy-policy.',
-		help: `The goal is to complete puzzles by either correctly placing the puzzle pieces or by spelling out the answer.
-
-			To repeat the in-game tutorial, tap the settings button in the top left corner of the app's home page. Then tap Show Tutorial when I play. The tutorial will now play the next time you open a level.`
+		help: `<h4>The Goal</h4>
+		<p>Complete puzzles by either correctly placing the puzzle pieces to reconstruct the image or by spelling out the subject of the photo.</p>
+		<h4>Replay the Tutorial</h4>
+		<ol>
+			<li>Inside the app, tap on the settings button in the top left corner of the home page.</li>
+			<li>Tap "Show Tutorial when I play", The tutorial will now play the next time you open a level.</li>
+		</ol>`
 	}
 ];
