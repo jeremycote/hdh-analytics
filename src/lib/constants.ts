@@ -147,8 +147,7 @@ export const products = [
 		title: 'Two Truths One Lie',
 		subtitle: 'iMessage game',
 		description: 'Play Two Truths One Lie on iMessage with your friends.',
-		download:
-			'https://apps.apple.com/app/apple-store/id1551729886?pt=121840887&ct=WorkItHDHAnalyticsWebsite&mt=8',
+		download: 'https://apps.apple.com/us/app/two-truths-and-a-lie-imessage/id1601860378',
 		type: 'ios',
 		image: 'icons/TTOLIcon.png',
 		image_style: 'rounded',
@@ -173,7 +172,7 @@ export const products = [
 		subtitle: 'Tile puzzles',
 		description:
 			'Guess animals, food, and landmarks from all over the world!\nNot sure what it is? Complete the puzzle to reveal a beautiful image.',
-		download: 'https://apps.apple.com/us/developer/hdh-analytics-inc/id1523364815',
+		download: 'https://apps.apple.com/us/app/geoswap-word-puzzle-game/id1594992798',
 		type: 'ios',
 		image: 'icons/GeoSwapperIcon.png',
 		image_style: 'rounded',

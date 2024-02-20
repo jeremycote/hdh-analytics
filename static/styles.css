@@ -166,9 +166,9 @@ body {
 }
 
 .product-grid > .product > img {
-	width: 100%;
+	width: 80%;
 	height: auto;
-	padding-bottom: 0;
+	padding-bottom: 0.25em;
 }
 
 .product-grid > .product > h2 {
@@ -186,6 +186,15 @@ body {
 
 .product-grid > .product > p {
 	color: #999;
+}
+
+.product-grid > .product > a {
+	height: 3.5em;
+}
+
+.product-grid > .product > a > img {
+	height: 100%;
+	width: auto;
 }
 
 .img-rounded {
