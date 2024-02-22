@@ -1,12 +1,15 @@
 body {
 	font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
 	font-weight: 300;
+	/* min-width: fit-content; */
 }
 .page-bg-img {
 	height: 70vh;
 	max-height: 200rem;
 	width: 100vw;
+	aspect-ratio: 1;
 	overflow: hidden;
+	object-fit: cover;
 	z-index: -2;
 	position: absolute;
 	left: 0;
