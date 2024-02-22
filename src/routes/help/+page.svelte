@@ -9,7 +9,7 @@
 	<meta name="description" content="Helpful instructions for apps written by HDH Analytics." />
 </svelte:head>
 
-<img class="page-bg-img" src="disk.jpg" alt="View of a starry night" />
+<img class="page-bg-img" src="backgrounds/disk.webp" alt="A hard drive" />
 
 <div class="hero">
 	<h1>Help</h1>
