@@ -5,6 +5,10 @@
 	import Parallax from '../../components/parallax.svelte';
 </script>
 
+<svelte:head>
+	<meta name="description" content="Helpful instructions for apps written by HDH Analytics." />
+</svelte:head>
+
 <img class="page-bg-img" src="disk.jpg" alt="View of a starry night" />
 
 <div class="hero">

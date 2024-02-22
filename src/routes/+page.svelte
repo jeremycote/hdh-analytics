@@ -5,7 +5,14 @@
 	import { products } from '$lib/constants';
 </script>
 
-<img class="page-bg-img" src="landing-bg.jpg" alt="View of a starry night" />
+<svelte:head>
+	<meta
+		name="description"
+		content="iOS and MacOS apps written by HDH Analytics. Includes the popular Display Arranger and Grammy for Youtube Music."
+	/>
+</svelte:head>
+
+<img class="page-bg-img" src="backgrounds/landing-bg.webp" alt="View of a starry night" />
 
 <div class="hero">
 	<h1>HDH Analytics</h1>
