@@ -187,3 +187,18 @@ export const products = [
 		</ol>`
 	}
 ];
+
+export const articles = [
+	{
+		id: 'iot-cloud-with-tiny-gsm',
+		name: 'Arduino IOT Cloud with TinyGSM and SIM8600',
+		image: 'backgrounds/articles.webp',
+		image_alt: 'article',
+		description:
+			'How to connect an Arduino device to the Arduino IOT Cloud using SIM8600 and TinyGSM.',
+		content: `
+			<h1>Arduino IOT Cloud with TinyGSM and SIM8600</h1>
+			<p>Hello</p>
+		`
+	}
+];

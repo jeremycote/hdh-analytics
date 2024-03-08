@@ -12,7 +12,7 @@
 	/>
 </svelte:head>
 
-<img class="page-bg-img" src="backgrounds/landing-bg.webp" alt="View of a starry night" />
+<img class="page-bg-img b-50" src="backgrounds/landing-bg.webp" alt="View of a starry night" />
 
 <div class="hero">
 	<h1>HDH Analytics</h1>

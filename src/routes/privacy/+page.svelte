@@ -9,7 +9,7 @@
 	<meta name="description" content="Privacy Policies for all of HDH Analytics' apps." />
 </svelte:head>
 
-<img class="page-bg-img" src="backgrounds/disk.webp" alt="A hard drive" />
+<img class="page-bg-img b-50" src="backgrounds/disk.webp" alt="A hard drive" />
 
 <div class="hero">
 	<h1>Privacy Policies</h1>

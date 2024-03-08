@@ -8,6 +8,7 @@
 <nav>
 	<a href="/">HDH Analytics</a>
 	<a href="/#apps">Products</a>
+	<a href="/articles">Articles</a>
 	<a href={url_appstoreDeveloperAccount}>
 		<Fa icon={faCloudArrowDown} />
 		Appstore</a
