@@ -14,8 +14,15 @@ export const products = [
 		type: 'mac',
 		image: 'icons/DisplayArrangerIcon.webp',
 		image_style: 'rounded',
-		privacy_policy:
-			'We do not collect or make use of any of the information you enter in Display Arranger.',
+		privacy_policy: `
+			<p class="alert">We do not associate data with individual users.</p>
+			<h4>Collected Aggregated Information</h4>
+			<ol>
+				<li>App Lifecycle events: screen views, taps, etc.</li>
+				<li>App Instance Id: automatically assigned id every time the app is started.</li>
+				<li>Approximate location derived from masked IP addresses.</li>
+			</ol>
+		`,
 		help: `
 			<p class="alert">Please connect at least one external display to your device or else Display Arranger will not be of any use.</p>
 			<h4>Setting display positions</h4>

@@ -31,7 +31,7 @@
 					<h3>{product.subtitle}</h3>
 				</div>
 				<div>
-					<p>{product.privacy_policy}</p>
+					<p>{@html product.privacy_policy}</p>
 				</div>
 			</div>
 		{/each}
