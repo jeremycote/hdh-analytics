@@ -20,7 +20,7 @@
 
 <slot />
 
-<footer>
+<footer style="padding-top: 2rem;">
 	<a href="/">HDH Analytics Inc.</a>
 	<a href="/help">Help</a>
 	<a href="/privacy">Privacy Policies</a>

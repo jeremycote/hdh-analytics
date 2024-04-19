@@ -29,6 +29,6 @@
 	}
 </script>
 
-<div class="parallax-content {clazz}" style="transform: translate3D(0, -{scrollY * 0.5}px, 0)">
+<div class="parallax-content {clazz}" style="">
 	<slot />
 </div>
